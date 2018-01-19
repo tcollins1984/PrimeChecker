@@ -5,9 +5,9 @@ def isPrime(x):
     z = x+2
     c = 0
     if x < 4:
-        print("Please enter an integer greater than 3")
+        return("Please enter an integer greater than 3")
     if type(x) != int:
-        print("Please enter an integer value")
+        return("Please enter an integer value")
     else:
         if x%2 == 0:
             c = c + 1
