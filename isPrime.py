@@ -43,4 +43,4 @@ def isPrime(x):
         if c == 0:
             return('Prime')
         else:
-            return('Composite')
+            return(f'Composite with {c} factors')
